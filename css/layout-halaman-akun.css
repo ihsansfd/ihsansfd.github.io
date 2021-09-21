@@ -1,0 +1,59 @@
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 200;
+  position: relative;
+  height: 100vh;
+  z-index: -9999;
+  overflow: hidden;
+}
+svg {
+  position: absolute;
+  bottom: 0;
+  z-index: -99;
+}
+.title {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  width: 500px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-web {
+  font-weight: 600 !important;
+  font-size: 2rem;
+  font-family: "Tourney";
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 55px;
+  height: 50px;
+}
+
+.layout-utama {
+  width: 450px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0px auto !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

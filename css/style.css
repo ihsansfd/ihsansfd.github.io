@@ -1,0 +1,141 @@
+html {
+	scroll-padding-top:  55px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 200;
+	position: relative;
+}
+
+a {
+	text-decoration: none !important;
+	}
+
+footer a {
+	color: #6c757d !important;
+}
+}
+
+a:hover {
+	color: #343a40;
+}
+
+nav a.navbar-brand {
+	font-weight: 600 !important;
+	font-size: 2rem;
+	font-family: "Tourney";
+	text-transform: uppercase;
+}
+a.nav-link:hover, .show > .nav-link,
+    .nav-link.active {
+    	color: #f8f9fa !important;
+    	border-radius: 5px;
+    	background-color: #6c757d ;
+    }
+a.nav-link {
+	transition: 0.4s;
+}
+
+a.nav-link:hover {
+
+	    	margin: 0px 5px;
+}
+
+.nav-item a {
+	font-size: 1.1em;
+}
+.jumbotron {
+	background-color: #D2EFFF;
+	padding: 2rem 1rem;
+ 	background-image: url("img/ihsan.png");
+ 	}
+
+ .jumbotron img {
+ 	width: 230px;
+ 	height: 200px;
+ 	margin: 30px auto;
+ 	  background-size: cover;
+ 	  border-radius: 20px;
+ }
+
+ .jumbotron .lead {
+ 	margin-left: ;
+ 	margin-right: ;
+ }
+ .jumbotron .btn {
+ 	margin-top: 1rem;
+ }
+
+.about {
+	img {
+		height: 80% !important;
+		position: absolute;
+		z-index: 9999;
+		top: 0;
+	}
+}
+
+h3 {
+	display: block;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 30px;
+	width: 18rem;
+	font-size: 1.5rem;
+
+}
+
+.about th {
+	font-weight: 400 !important;
+}
+
+.col-md-3 #orang {
+	border-radius: 0px 0px 100px 100px !important;
+}
+
+.specialization {
+	background-color: #D2EFFF;
+}
+
+.specialization,.contact,.gallery,.about {
+	padding: 2rem 1rem;
+	box-sizing: border-box;
+}
+
+.table-specialization th {
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.specialization .bi-star, .specialization .bi-star-fill, .specialization .bi-star-half{
+	color: orange;
+	font-size: 1.5em;
+}
+
+.gallery img {
+
+width: 286px;
+border-bottom: 1px solid lightgray;
+
+}
+
+.gallery .card-text {
+	font-size: 0.8em;
+}
+
+.contact {
+	background-color: #D2EFFF;
+	padding: 2rem 1rem;
+
+}
+
+.contact .bi-facebook, .contact .bi-twitter, .contact .bi-youtube, .contact .bi-instagram {
+	font-size: 2em;
+
+}
+.contact td {
+	vertical-align: middle;
+}
+
+footer {
+	font-size: 0.8rem;
