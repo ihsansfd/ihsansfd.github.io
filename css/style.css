@@ -109,11 +109,11 @@ table.table-specialization th {
 	font-size: 1.5em;
 }
 table.table-specialization td {
-/*    white-space: pre-wrap;
+    white-space: pre-wrap;
     white-space: -moz-pre-wrap; 
     white-space: -pre-wrap; 
     white-space: -o-pre-wrap;
-    word-wrap: break-word; */
+    word-wrap: break-word; 
 
 }
 .container .table-responsive table.table-specialization {
