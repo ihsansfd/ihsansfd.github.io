@@ -103,9 +103,14 @@ h3 {
 	box-sizing: border-box;
 }
 
-.table-specialization th {
-	text-transform: uppercase;
+table.table-specialization th {
 	vertical-align: middle;
+	font-style: bold;
+	font-size: 1.5em;
+}
+.container .table-responsive table.table-specialization {
+	border-spacing: 10px 5px !important;
+	border-collapse: separate;
 }
 .specialization .bi-star, .specialization .bi-star-fill, .specialization .bi-star-half{
 	color: orange;
