@@ -121,10 +121,22 @@ h3.specialization-title {
   color: #fff;
   border-radius: .75rem;
   box-sizing: border-box;
+  background-color: grey !important;
+}
+
+.progress-bar {
+	background-color: deepskyblue !important;
 }
 
 .specialization-things ul {
 	list-style: url("img/specialization/check-square-fill.svg") !important;
+}
+
+/*.icon-spesialisasi {
+	color: lightskyblue !important;
+}*/
+.bi-check-square-fill {
+	color: mediumseagreen !important;
 }
 
 .gallery img {
