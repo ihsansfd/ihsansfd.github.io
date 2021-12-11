@@ -48,8 +48,8 @@ a.nav-link:hover {
 .jumbotron {
 	background-color: #D2EFFF;
 	padding: 2rem 1rem;
- 	background-image: url("img/ihsan.png");
- 	}
+/* 	background-image: url("img/ihsan.png");
+*/ 	}
 
  .jumbotron img {
  	width: 230px;
@@ -116,6 +116,30 @@ table.table-specialization td {
     word-wrap: break-word; 
 
 }
+
+h3.specialization-title {
+	margin-bottom: 50px !important;
+}
+.specialization-item {
+	margin-bottom: 20px !important;
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.5rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  border-radius: .75rem;
+  box-sizing: border-box;
+}
+
+.specialization-things ul {
+	list-style: url("img/specialization/check-square-fill.svg") !important;
+}
+
 .container .table-responsive table.table-specialization {
 /*	border-spacing: 10px 0px !important;
 	border-collapse: separate;*/
