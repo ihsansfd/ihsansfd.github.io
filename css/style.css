@@ -16,7 +16,6 @@ a {
 footer a {
 	color: #6c757d !important;
 }
-}
 
 a:hover {
 	color: #343a40;
@@ -67,12 +66,12 @@ a.nav-link:hover {
  	  border-radius: 20px;
 
  }	
-
+/*
 
  .jumbotron .lead {
  	margin-left: ;
  	margin-right: ;
- }
+ }*/
  .jumbotron .btn {
  	margin-top: 1rem;
  }
@@ -185,6 +184,7 @@ border-bottom: 1px solid lightgray;
  	top: 40px;
  	right: -50px;
  }
+}
 
  @media only screen and (min-width: 992px)  {
 
