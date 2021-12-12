@@ -177,7 +177,7 @@ footer {
 
 }
 
-@media (min-width: 760px)  {
+@media only screen and (min-width: 760px)  {
 
 .jumbotron img {
  	width: 530px;
@@ -188,7 +188,7 @@ footer {
  	right: -50px;
  }
 
- @media (min-width: 992px)  {
+ @media only screen and (min-width: 992px)  {
 
 .jumbotron img {
  	width: 530px;
