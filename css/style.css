@@ -68,6 +68,32 @@ a.nav-link:hover {
 
  }	
 
+ /*set media query*/
+
+ @media only screen and (min-width: 760px)  {
+
+.jumbotron img {
+ 	width: 530px;
+ 	margin: 30px auto;
+ 	background-size: cover;
+ 	position: absolute;
+ 	top: 40px;
+ 	right: -50px;
+ }
+
+ @media only screen and (min-width: 992px)  {
+
+.jumbotron img {
+ 	width: 530px;
+ 	margin: 30px auto;
+ 	background-size: cover;
+ 	position: absolute;
+ 	top: 40px;
+ 	right: 30px;
+ }
+
+}
+
  .jumbotron .lead {
  	margin-left: ;
  	margin-right: ;
@@ -174,29 +200,5 @@ border-bottom: 1px solid lightgray;
 
 footer {
 	font-size: 0.8rem;
-
-}
-
-@media only screen and (min-width: 760px)  {
-
-.jumbotron img {
- 	width: 530px;
- 	margin: 30px auto;
- 	background-size: cover;
- 	position: absolute;
- 	top: 40px;
- 	right: -50px;
- }
-
- @media only screen and (min-width: 992px)  {
-
-.jumbotron img {
- 	width: 530px;
- 	margin: 30px auto;
- 	background-size: cover;
- 	position: absolute;
- 	top: 40px;
- 	right: 30px;
- }
 
 }
