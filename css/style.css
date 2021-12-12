@@ -22,11 +22,19 @@ a:hover {
 }
 
 nav a.navbar-brand {
-	font-weight: 600 !important;
-	font-size: 2rem;
-	font-family: "Tourney";
-	text-transform: uppercase;
+	font-family: "Tourney";	
+/*	font-weight: 900;
+*//*	font-style: bold;
+*/	font-size: 2rem;
+	text-transform: lowercase;
 }
+
+nav a.navbar-brand .opening-tag, nav a.navbar-brand .closing-tag {
+	color: #66c9ff;
+}
+
+
+
 a.nav-link:hover, .show > .nav-link,
     .nav-link.active {
     	color: #f8f9fa !important;
