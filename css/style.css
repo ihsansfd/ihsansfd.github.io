@@ -177,7 +177,7 @@ border-bottom: 1px solid lightgray;
  @media only screen and (min-width: 760px)  {
 
 .jumbotron img {
- 	width: 530px;
+ 	width: 450px;
  	margin: 30px auto;
  	background-size: cover;
  	position: absolute;
