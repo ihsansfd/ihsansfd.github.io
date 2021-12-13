@@ -66,6 +66,14 @@ a.nav-link:hover {
  	  border-radius: 20px;
 
  }	
+
+ .lead-bio {
+ 	min-height: 60px  ;
+ }
+
+ .display-nama {
+ 	min-height: 67px;
+ }
 /*
 
  .jumbotron .lead {
