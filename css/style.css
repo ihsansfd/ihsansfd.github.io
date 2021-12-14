@@ -60,8 +60,9 @@ a.nav-link:hover {
 */ 	}
 
  .jumbotron img {
-	width: 230px;
+	width: 150px;
  	margin: 30px auto;
+ 	padding: 10px 10px;
  	  background-size: cover;
  	  border-radius: 20px;
 
@@ -184,17 +185,20 @@ border-bottom: 1px solid lightgray;
 
  @media only screen and (min-width: 760px)  {
 
-.jumbotron img {
- 	width: 450px;
- 	margin: 30px auto;
- 	background-size: cover;
+ 	.jumbotron img {
+ 	width: 27vw;
+ 	/* background-size: cover; */
  	position: absolute;
- 	top: 40px;
- 	right: -50px;
+ 	top: auto;
+ 	right: auto;
+ 	padding-right: var(--bs-gutter-x, 0.75rem);
+ 	padding-left: var(--bs-gutter-x, 0.75rem);
+ }
+
  }
 }
 
- @media only screen and (min-width: 992px)  {
+ /*@media only screen and (min-width: 992px)  {
 
 .jumbotron img {
  	width: 530px;
@@ -205,7 +209,7 @@ border-bottom: 1px solid lightgray;
  	right: 30px;
  }
 }
-
+*/
 footer {
 	font-size: 0.8rem;
 
