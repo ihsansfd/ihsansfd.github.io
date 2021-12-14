@@ -122,7 +122,7 @@ h3 {
 }
 
 
-h3.specialization-title {
+h3.specialization-title, h3.profile-title, h3.works-title, h3.contact-title {
 	margin-bottom: 50px !important;
 }
 .specialization-item {
