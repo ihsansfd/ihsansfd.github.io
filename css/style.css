@@ -23,9 +23,7 @@ a:hover {
 
 nav a.navbar-brand {
 	font-family: "Tourney";	
-/*	font-weight: 900;
-*//*	font-style: bold;
-*/	font-size: 2rem;
+	font-size: 2rem;
 	text-transform: lowercase;
 }
 
@@ -35,11 +33,10 @@ nav a.navbar-brand .opening-tag, nav a.navbar-brand .closing-tag {
 
 
 
-a.nav-link:hover, .show > .nav-link,
-    .nav-link.active {
-    	color: #f8f9fa !important;
-    	border-radius: 5px;
-    	background-color: #6c757d ;
+a.nav-link:hover, .show > .nav-link, .nav-link.active {
+	color: #f8f9fa !important;
+	border-radius: 5px;
+	background-color: #6c757d ;
     }
 a.nav-link {
 	transition: 0.4s;
@@ -47,7 +44,7 @@ a.nav-link {
 
 a.nav-link:hover {
 
-	    	margin: 0px 5px;
+	margin: 0px 5px;
 }
 
 .nav-item a {
@@ -56,15 +53,14 @@ a.nav-link:hover {
 .jumbotron {
 	background-color: #D2EFFF;
 	padding: 2rem 1rem;
-/* 	background-image: url("img/ihsan.png");
-*/ 	}
+ 	}
 
  .jumbotron img {
 	width: 170px;
  	margin: 30px auto;
  	padding: 10px 10px;
- 	  background-size: cover;
- 	  border-radius: 20px;
+  background-size: cover;
+  border-radius: 20px;
 
  }	
 
@@ -75,25 +71,10 @@ a.nav-link:hover {
  .display-nama {
  	min-height: 67px;
  }
-/*
-
- .jumbotron .lead {
- 	margin-left: ;
- 	margin-right: ;
- }*/
  .jumbotron .btn {
  	margin-top: 1rem;
  }
 
-/*.about {
-	img {
-		height: 80% !important;
-		position: absolute;
-		z-index: 9999;
-		top: 0;
-	}
-}
-*/
 h3 {
 	display: block;
 	padding: 10px;
@@ -121,10 +102,6 @@ h3 {
 	box-sizing: border-box;
 }
 
-
-h3.specialization-title, h3.profile-title, h3.works-title, h3.contact-title {
-	margin-bottom: 50px !important;
-}
 .specialization-item {
 	margin-bottom: 20px !important;
 }
@@ -149,17 +126,14 @@ h3.specialization-title, h3.profile-title, h3.works-title, h3.contact-title {
 	list-style: url("img/specialization/check-square-fill.svg") !important;
 }
 
-/*.icon-spesialisasi {
-	color: lightskyblue !important;
-}*/
 .bi-check-square-fill {
 	color: mediumseagreen !important;
 }
 
 .gallery img {
 
-width: 286px;
-border-bottom: 1px solid lightgray;
+	width: 286px;
+	border-bottom: 1px solid lightgray;
 
 }
 
@@ -187,7 +161,6 @@ border-bottom: 1px solid lightgray;
 
  	.jumbotron img {
  	width: 27vw;
- 	/* background-size: cover; */
  	position: absolute;
  	top: auto;
  	right: auto;
@@ -197,18 +170,15 @@ border-bottom: 1px solid lightgray;
 
  }
 
- /*@media only screen and (min-width: 992px)  {
-
-.jumbotron img {
- 	width: 530px;
- 	margin: 30px auto;
- 	background-size: cover;
- 	position: absolute;
- 	top: 40px;
- 	right: 30px;
+ table.table-sosmed th {
+ 	max-width: 1.5rem;
  }
-}
-*/
+
+ table.table-sosmed th,td {
+ 	text-align:center;
+ }
+
+
 footer {
 	font-size: 0.8rem;
 
