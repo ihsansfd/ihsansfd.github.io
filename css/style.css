@@ -119,9 +119,17 @@ h3 {
 	background-color: deepskyblue !important;
 }
 
+
 .specialization-things ul {
 	list-style: url("img/specialization/check-square-fill.svg") !important;
 }
+
+
+/*#specialization-item:hover {
+	transition: all 150ms ease-in-out 0.1s !important;
+	transform: scale(1.05) !important;
+}
+*/
 
 .bi-check-square-fill {
 	color: mediumseagreen !important;
