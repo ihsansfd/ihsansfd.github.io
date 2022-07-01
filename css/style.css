@@ -152,13 +152,20 @@ h3 {
 
 }
 
-.contact .bi-facebook, .contact .bi-twitter, .contact .bi-youtube, .contact .bi-instagram {
+.contact .bi-facebook, .contact .bi-twitter, .contact .bi-youtube, .contact .bi-instagram, .contact .bi-linkedin {
 	font-size: 2em;
 
 }
 .contact td {
 	vertical-align: middle;
 }
+
+.contact a {
+	color: inherit;
+  	text-decoration: none;
+}
+
+
 
 /*set media query*/
 
