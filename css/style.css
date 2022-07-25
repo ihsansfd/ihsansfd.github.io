@@ -187,3 +187,104 @@ footer {
 	font-size: 0.8rem;
 
 }
+
+
+/* (A) TIMELINE CONTAINER */
+.alt-vtl {
+	/* (A1) RELATIVE POSITION REQUIRED TO PROPERLY POSITION THE TIMELINE */
+	position: relative;
+   
+	/* (A2) WIDTH RESTRICTION & CENTER ON PAGE */
+	max-width: 600px;
+	margin: 0 auto;
+  }
+  
+  /* (B) DRAW TIMELINE USING ::BEFORE */
+  .alt-vtl::before {
+	/* (B1) VERTICAL LINE */
+	content: "";
+	width: 5px;
+	background-color: #1da1ff;
+   
+	/* (B2) POSITION IN THE MIDDLE */
+	position: absolute;
+	top: 0; bottom: 0; left: 50%;
+  }
+  
+  /* (C) EVENTS */
+  div.alt-event {
+	/* (C1) COSMETICS */
+	background-color: #D2EFFF;
+	border-radius: 6px;
+   
+	/* (C2) DIMENSIONS */
+	padding: 20px 30px;
+	width: 45%;
+	margin-bottom: 10px;
+   
+	/* (C3) POSITION - DEFAULT LEFT SIDE */
+	position: relative;
+	left: 0;
+  }
+   
+  /* (C4) CHANGE EVENT POSITION TO RIGHT SIDE */
+  div.right { left: 55%; }
+  
+  /* (D) COSMETICS FOR EVENT DATE & TEXT */
+  /* p.date {
+	font-size: 1.1em;
+	font-weight: 700;
+	color: #ff6a00;
+  } */
+  p.txt {
+	margin: 10px 0 0 0;
+	/* color: #222; */
+  }
+  
+  /* (E) EVENT "SPEECH BUBBLE CALLOUT" */
+  /* (E1) SHARED */
+  div.alt-event::before, div.alt-event.right::before {
+	content: "";
+	border: 10px solid transparent;
+	position: absolute;
+  }
+   
+  /* (E2) FOR EVENTS ON THE LEFT */
+  div.alt-event::before {
+	/* (E2-1) "MAGIC TRIANGLE" */
+	border-left-color: #dbf0ff;
+	border-right: 0;
+   
+	/* (E2-2) POSITION TRIANGLE ON THE RIGHT */
+	left: 100%; top: 20%;
+  }
+   
+  /* (E3) FOR EVENTS ON THE RIGHT */
+  div.alt-event.right::before {
+	/* (E3-1) "MAGIC TRIANGLE" */
+	border-right-color: #dbf0ff;
+	border-left: 0;
+   
+	/* (E3-2) POSITION TRIANGLE ON THE LEFT */
+	left: auto; right: 100%; top: 20%;
+  }
+   
+  /* (F) EVENT CIRCLE ON TIMELINE */
+  /* (F1) SHARED */
+  div.alt-event::after, div.alt-event.right::after {
+	/* (F1-1) "MAGIC CIRCLE" */
+	content: "";
+	background: #fff;
+	border: 4px solid #1da1ff;
+	width: 16px; height: 16px;
+	border-radius: 50%;
+   
+	/* (F1-2) POSITION */
+	position: absolute;
+  }
+   
+  /* (F2) POSITION TO THE LEFT */
+  div.alt-event::after { top: 20%; left: 108%; }
+   
+  /* (F3) POSITION TO THE RIGHT */
+  div.alt-event.right::after { top: 20%; left: auto; right: 105%; }
