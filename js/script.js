@@ -1,50 +1,70 @@
-function displayMessage() {
-    alert("This is just for demonstrating purpose :) as Github only supports CSS & JavaScript \n\nSend to ihsannurul@hotmail.com if want to contact me");
+const tagCloudContainer = ".tagcloud";
+const texts = [
+  "NPM",
+  "Maven",
+  "Nuget",
+  "Kotlin",
+  "GitHub",
+  "Gitlab",
+  "Linux",
+  "Git",
+  "MSIX",
+  "Python",
+  "Mockito",
+  "ASP.NET",
+  "Material UI",
+  "Dapper",
+  "NodeJS",
+  "C#",
+  "MongoDB",
+  "Spring",
+  "PHP",
+  "Entity Framework",
+  "xUnit",
+  "JavaScript",
+  "Java Swing",
+  "Sqlite",
+  "MySQL",
+  "React",
+  "Docker",
+  "Laravel",
+  "TailwindCSS",
+  "WPF",
+  "Nginx",
+  "Bootstrap",
+  "Moq",
+  "Odoo",
+  "CSS",
+  "XAML",
+];
+// const options = { radius: "150" };
+
+// TagCloud(container, texts, options);
+
+function generateTagCloud(x) {
+  document.querySelector(tagCloudContainer).innerHTML = "";
+  if (x.matches) {
+    const options = { radius: "200" };
+    TagCloud(tagCloudContainer, texts, options);
+  } else {
+    const options = { radius: "150" };
+    TagCloud(tagCloudContainer, texts, options);
+  }
 }
 
-document.getElementById("button-submit").addEventListener("click", displayMessage);
-const form = document.getElementById("my-form"); 
-function handleForm(event) { event.preventDefault();} 
-form.addEventListener('submit', handleForm);
+const minSmallMedia = window.matchMedia("(min-width: 768px)");
 
-document.addEventListener("DOMContentLoaded", () => {
-let options = {
-  root: null,
-  rootMargin: "-60px 0px",
-  threshold: 0.05
-};
-let observer = new IntersectionObserver(beTouching, options);
-document.querySelectorAll(".progress").forEach(p => {
-  observer.observe(p);
-});
-});
+generateTagCloud(minSmallMedia);
 
-function handleBeTouching(v) {
+minSmallMedia.addEventListener("change", generateTagCloud);
 
-    let nilai = 1;
-    const nilaiDefault = v.getAttribute("data-nilai");
-    let id = setInterval(frame, 100);
+const menuToggler = document.querySelector(".menu-toggler");
+const menuItems = document.querySelector(".menu-items");
 
-    function frame() {
-      if (nilai >= nilaiDefault ) {
-        clearInterval(id);
-      } else {
-        nilai++;
-        v.style.width = nilai*10 + "%";
-        v.innerHTML = nilai  + "/10";
-          }
-    }
-}
-
-          
-
-function beTouching(entries, ob) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-            let progressBar = entry.target.children[0];
-            setTimeout(() => handleBeTouching(progressBar),500);
-            ob.unobserve(entry.target);
-
+menuToggler.addEventListener("click", () => {
+  if (menuItems.style.display === "none") {
+    menuItems.style.display = "flex";
+  } else {
+    menuItems.style.display = "none";
   }
 });
-}
