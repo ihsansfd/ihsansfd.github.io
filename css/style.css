@@ -367,16 +367,16 @@ body {
   box-shadow: 8px 8px var(--jonin-color-main);
 }
 
+.cta-button:hover {
+  background-color: var(--jonin-color-main);
+  box-shadow: 8px 8px var(--jonin-color-black-secondary);
+  color: var(--jonin-color-black);
+}
+
 .cta-button--large {
-  display: inline-block;
-  text-decoration: none;
   font-size: var(--jonin-fontsize-semilarge);
-  background-color: var(--jonin-color-black-secondary);
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  box-shadow: 8px 8px var(--jonin-color-main);
 }
 
 .cta-button_secondary {
