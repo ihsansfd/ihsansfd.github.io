@@ -328,11 +328,12 @@ body {
   font-size: var(--jonin-fontsize-semilarge);
   font-weight: bold;
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  border: 2px solid var(--jonin-color-main);
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: var(--jonin-color-black);
+  background-color: var(--jonin-color-main);
   display: inline-block;
 }
 
