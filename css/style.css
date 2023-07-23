@@ -398,13 +398,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: 0.6rem;
 }
 
 .stack-item {
   text-align: center;
   font-weight: 500;
-  padding: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.7rem;
+  padding-left: 0.7rem;
   border: 1px solid var(--jonin-color-main-darker);
+  border-radius: 1rem;
   display: inline-block;
 }
 
