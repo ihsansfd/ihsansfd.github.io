@@ -372,12 +372,12 @@ body {
   font-size: var(--jonin-fontsize-semilarge);
   font-weight: bold;
   text-align: center;
-  padding-top: 0.7rem;
+  /* padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   color: var(--jonin-color-black);
-  background-color: var(--jonin-color-main);
+  background-color: var(--jonin-color-main); */
   display: inline-block;
 }
 
